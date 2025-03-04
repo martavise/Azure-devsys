@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+    color: red;
+}
+
+.card {
+    border: 2px black solid;
+    border-radius: 1em;
+    width: 5em;
+    height: 5em;
+}
+
+.card:hover {
+    cursor: pointer;
+}
