@@ -1,5 +1,7 @@
+import { bindable } from "aurelia"
+
 export class Card {
-    visible: Boolean;
-    symbol: string;
+    @bindable() visible: Boolean;
+    @bindable() symbol: string;
     matched: boolean
     }
